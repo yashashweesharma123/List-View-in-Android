@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/circlemageview"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/img"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      app:civ_border_color="@color/colorAccent"
+      app:civ_border_width="1dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="40dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sex"
+        android:textSize="40dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/course"
+        android:textSize="40dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+  </LinearLayout>
+
+
